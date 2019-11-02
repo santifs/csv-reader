@@ -12,6 +12,5 @@ with open('testfile.csv') as csv_file:
             f.write(f'(\'{row[0]}\', \'{row[1]}\', \'{row[2]}\', \'{row[3]}\') \n')
             line_count += 1
     print(f'Processed {line_count} lines.')
-    f.close()
 
 # No se usa el metodo join al escribir las filas porque se quieren en distintas lineas, con \n
